@@ -1,0 +1,172 @@
+body
+{
+    background-image: url(Images/Homepage.jpg);
+    background-size: 100% auto;
+}
+
+.header
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.part1 
+{
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.logo
+{
+    border-radius: 10px;
+}
+
+.snav
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.snav-ico
+{
+    width: 25px;
+    height: 25px;
+}
+
+.snav-fb
+{
+    padding: 0 40px;
+}
+
+.snav-insta
+{
+    padding: 0 40px;
+}
+
+.snav-x
+{
+    padding: 0 40px;
+}
+
+.searchbar
+{
+    mar
+}
+
+.part2 
+{
+    height : 80px;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(41, 41, 41, 0.5);
+    margin-top: 90px;
+}
+
+.part2 a
+{
+    color:#292929;
+    text-decoration-line: none;
+}
+
+.part2 a:visited {
+    color: #292929;
+}
+
+.part2 a:link {
+    color: #292929;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.nav-ico
+{
+    width: 23px;
+    height: 23px;
+}
+
+
+.nav a{
+    text-decoration-line: none;
+    color: #D9D9D9;
+}
+
+.nav a:visited {
+    color: #D9D9D9;
+}
+
+.nav a:link {
+    color: #D9D9D9;
+}
+
+.nav-homepage{
+    padding: 0 92px;
+}
+
+
+.nav-triplisting{
+    padding: 0 92px;
+}
+
+.nav-wildcamping{
+    padding: 0 92px;
+}
+
+.nav-aboutus{
+    padding: 0 92px;
+}
+
+.nav-contactus{
+    padding: 0 92px;
+}
+
+.nav-donations{
+    padding: 0 92px;
+}
+
+
+
+.userimg{
+    margin-right: 20px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.userimg:hover{
+    cursor: pointer;
+}
+
+.userimg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.login{
+    margin-right: 30px;
+    align-self: flex-end;
+    margin-bottom: 35px;
+    color: #D9D9D9;
+}
+
+.login a{
+    color: #D9D9D9;
+    text-decoration-line: none;
+}
+
+.login a:visited {
+    color: #D9D9D9;
+}
+
+.login a:link {
+    color: #D9D9D9;
+}
