@@ -54,8 +54,41 @@ body
 
 .searchbar
 {
-    mar
+    margin-top: 35px;
+    margin-left: 700px;
 }
+
+.search-input {
+    width: 350px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(41, 41, 41, 0.5);
+}
+
+/*.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}*/
+
+.fa-search {
+    color: #666;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.search-button:hover .fa-search {
+    color: #333;
+}
+
 
 .part2 
 {
