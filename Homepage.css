@@ -64,20 +64,21 @@ body
     border: 3px solid #ccc;
     border-radius: 20px;
     font-size: 16px;
+    color: #ffffff;
     outline: none;
     background-color: rgba(41, 41, 41, 0.5);
 }
 
-/*.search-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 100%;
-    border: none;
-    background-color: transparent;
+.search-button {
+    position: fixed;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    border: 3px solid#ccc;
+    border-radius: 50%;
+    background-color: rgba(41, 41, 41, 0.6);
     cursor: pointer;
-}*/
+}
 
 .fa-search {
     color: #666;
